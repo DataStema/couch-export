@@ -1,0 +1,31 @@
+{
+  "name": "couch-export",
+  "version": "1.0.0",
+  "description": "CouchDB export to other systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataStema/couch-export.git"
+  },
+  "keywords": [
+    "CouchDB",
+    "migration-tool",
+    "NoSQL"
+  ],
+  "author": "DataStema",
+  "license": "Apache License V2.0",
+  "bugs": {
+    "url": "https://github.com/DataStema/couch-export/issues"
+  },
+  "homepage": "https://github.com/DataStema/couch-export#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "nano": "^10.0.0",
+    "pg": "^8.7.3",
+    "pino": "^7.11.0",
+    "stream": "^0.0.2"
+  }
+}
