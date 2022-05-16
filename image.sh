@@ -2,7 +2,7 @@
 
 SEM_VER='2.0.0'
 IMG_NAME='datastemalux/couch-export'
-GIT_REF=''
+GIT_REF='84e3441'
 
 docker image build --no-cache=true \
              --build-arg BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ') \
